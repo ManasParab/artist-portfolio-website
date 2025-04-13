@@ -4,53 +4,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elara Monroe</title>
+    <title>Ellie Monroe</title>
     <link href="src/output.css" rel="stylesheet">
     <link rel="stylesheet" href="src/fonts.css">
 </head>
 
 <body>
     <div class="top-0 bottom-0 left-0 bg-transparent flex flex-col items-center h-fit w-full">
-        <div
-            class="p-3 bg-white h-fit w-fit mt-12 rounded-t-[40vw] rounded-b-4xl border-2 border-amber-500">
-            <img src="assets/artist-photo.jpg" alt="" class="w-70 rounded-t-[40vw] rounded-b-3xl border-0">
+        <img src="assets/946379_4614 1.svg" alt=""
+            class="z-[-99] absolute top-0 left-0 right-0 w-full h-[100vh] object-cover opacity-100">
+        <div class="p-3 bg-white h-fit w-fit mt-12 rounded-t-[40vw] rounded-b-4xl border-3 border-amber-600/70">
+            <img src="assets/artist-photo.jpg" alt=""
+                class="w-68 rounded-t-[40vw] rounded-b-3xl border-3 border-dashed border-amber-800/20 p-1">
         </div>
         <div class="bg-amber-00 h-5 w-fit pl-8 pr-8 flex flex-col items-center justify-center mt-10 pb-4 pt-2">
-            <h1 class="font-namereg text-[12vw] text-center font-bold mt-5 mb-5 text-amber-600">
+            <h1
+                class="font-namereg text-[12vw] text-center font-bold mt-4 mb-5 text-amber-600 underline decoration-amber-800/20 underline-offset-8">
                 Ellie Monroe
             </h1>
         </div>
 
         <div
-            class="w-50 h-80 bg-amber-300 blur-2xl z-[-999] absolute top-[-10vw] right-0 rounded-full opacity-50 animate-pulse">
+            class="w-full h-80 bg-amber-400 blur-2xl z-[-999] absolute mt-28 right-0 left-0 flex flex-col justify-center items-center rounded-full opacity-90">
         </div>
 
 
-        <a href="" class="w-3/4 h-fit text-center pt-4 pb-4 rounded-full bg-amber-600 mt-8 text-white font-bold">View my
+
+        <a href="" class="w-3/4 h-fit text-center pt-3 pb-3 rounded-full bg-amber-600 mt-8 text-white font-bold">View my
             Work</a>
         <a href=""
-            class="w-3/4 h-fit text-center pt-3 pb-3 rounded-full mt-3 border-2 border-amber-600 text-amber-600 font-bold">Contact
+            class="w-3/4 h-fit text-center pt-3 pb-3 rounded-full mt-3 border-2 border-amber-800 text-amber-800 font-bold">Contact
             Me</a>
 
         <div class="bg-amber-00 h-5 w-fit pl-8 pr-8 flex flex-col items-center justify-center mt-12 pb-4 pt-2">
-            <h1 class="font-namereg text-sm text-center text-amber-600 font-bold mt-[-4vw] mb-5">
+            <h1 class="font-textreg text-sm text-center text-amber-600 font-bold mt-[-8vw] mb-5">
                 " Visual Artist Blending the Real and Imagined "
             </h1>
         </div>
 
     </div>
 
-    <div class="border-t-2 border-amber-600/20 m-8"></div>
+    <div class="border-t-4 border-amber-800/20 m-8"></div>
 
     <main class="top-0 bottom-0 left-0 bg-transparent flex flex-col items-center h-fit w-full">
-        <div class="bg-amber-00 h-5 w-fit pl-8 pr-8 flex flex-col items-center justify-center mt-10 pb-4 pt-2">
+        <div class="bg-amber-00 h-5 w-fit pl-8 pr-8 flex flex-col items-center justify-center mt-6 pb-4 pt-2">
             <h1 class="font-namereg text-4xl text-center font-bold mt-5 mb-5 text-amber-800">
                 Sketches & Stories
             </h1>
         </div>
-        <img src="assets/paints.jpg" alt="" class="w-70 rounded-t-3xl rounded-b-3xl border-0 mt-12">
+        <div class="p-3 bg-white h-fit w-fit mt-12 rounded-4xl border-3 border-amber-600/70">
+            <img src="assets/paintss.jpg" alt=""
+                class="w-76 rounded-t-3xl rounded-b-3xl border-3 border-dashed border-amber-800/20 p-1">
+        </div>
+        <div class="bg-amber-00 h-5 w-fit px-4 flex flex-col items-center justify-center mt-12 pb-4 pt-2">
+            <h1 class="font-textreg text-md text-justify text-amber-600 font-bold mt-20 mb-5 mx-6">
+                I'm a visual storyteller exploring how the surreal intersects with reality. My works use digital media,
+                traditional textures, and coded light to provoke emotions and curiosity.
+            </h1>
+        </div>
 
     </main>
+
+    <div class="border-t-4 border-amber-800/20 mx-8 mt-34"></div>
+
+    <div class="bg-amber-00 h-5 w-full pl-8 pr-8 flex flex-col items-center justify-center mt-14 pb-4 pt-2">
+        <h1 class="font-namereg text-4xl text-center font-bold mt-5 mb-5 text-amber-800">
+            Art Gallery
+        </h1>
+    </div>
+
+    <div class="m-4 rounded-4xl border-3 border-amber-600/70 mt-14 p-3">
+        <div id="gallery-align"
+            class="w-full mx-auto p-1 border-3 border-dashed border-amber-800/20 rounded-3xl space-y-6 flex flex-col justify-center items-center">
+
+            <!-- Thumbnails Preview Row -->
+            <div class="flex overflow-x-auto space-x-4 pb-2 rounded-[5vw]">
+                <div id="thumbnails" class="flex space-x-4"></div>
+            </div>
+
+            <!-- Gallery Viewer -->
+            <div class="relative">
+                <div class="overflow-hidden rounded-lg">
+                    <img id="galleryImage" src="" alt="Project Image"
+                        class="w-full h-fit object-cover transition-all duration-500 rounded-xl" />
+                </div>
+
+                <!-- Navigation Buttons -->
+                <button id="prevBtn"
+                    class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-75 z-10">
+                    &#8592;
+                </button>
+
+                <button id="nextBtn"
+                    class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-75 z-10">
+                    &#8594;
+                </button>
+            </div>
+
+            <!-- Caption -->
+            <div id="caption" class="text-center mt-0 mb-4 text-lg text-amber-800 font-bold">
+                Project 1
+            </div>
+        </div>
+    </div>
+    <div class="bg-amber-00 h-5 w-fit pl-8 pr-8 flex flex-col items-center justify-center mt-12 pb-4 pt-2">
+        <h1 class="font-textreg text-sm text-center text-amber-600 font-bold mt-[-8vw] mb-5">
+            " Drawn with Imagination, Painted with Love ❣️"
+        </h1>
+    </div>
+
+    <div class="border-t-4 border-amber-800/20 mx-8 mt-6"></div>
+
+
+    <div class="top-0 bottom-0 left-0 mt-8 bg-transparent flex flex-col items-center h-fit w-full">
+        <div class="bg-amber-00 h-5 w-fit pl-8 pr-8 flex flex-col items-center justify-center mt-6 pb-4 pt-2">
+            <h1 class="font-namereg text-4xl text-center font-bold mt-5 mb-5 text-amber-800">
+                Mediums I Master
+            </h1>
+        </div>
+
+    </div>
+    <script src="./src/app.js"></script>
 </body>
 
 </html>
