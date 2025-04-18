@@ -17,7 +17,6 @@ This is a **mobile-optimized** artist portfolio website built using **HTML**, **
 - Beautiful mobile-first layout
 - Responsive gallery of artworks
 - Artist bio section
-- Smooth scroll and interactive animations
 - Social media and contact links
 - Lightweight and fast loading
 
